@@ -10,7 +10,13 @@
     
     </head>
     <body>
+        <div id="social">
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">Google Plus</a>
+        </div>
         <header>
+          <div class="wrapper">
             <div id="logo">
                 <h1>Exceptional</h1>
                 <h2>Realty Group</h2>
@@ -23,11 +29,13 @@
                 <a href="market-report.html">Market Report</a>
                 <a href="contact.html">Contact</a>
                 <a href="http://hud.gov" target="_blank">H.U.D.</a>
-            </nav>
-            
+            </nav> 
+          </div> <!-- .wrapper -->
         </header>
-        
-        <section id="featured-property">
+      
+    
+      <div class="wrapper clearfix">
+        <section id="featured-property" class="col-3 first">
             <figure>
                 <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
                     <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards</figcaption>
@@ -40,7 +48,7 @@
              <p>Nulla dui purus, eleifend vel, consequat non, dictum porta, nulla. Duis ante mi, laoreet ut, commodo eleifend, cursus nec, lorem. Aenean eu est. Etiam imperdiet turpis. Praesent nec augue. Curabitur ligula quam, rutrum id, tempor sed, consequat ac, dui. Vestibulum accumsan eros nec magna. Vestibulum vitae dui. Vestibulum nec ligula et lorem consequat ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Phasellus eget nisl ut elit porta ullamcorper. Maecenas tincidunt velit quis orci. Sed in dui. Nullam ut mauris eu mi mollis luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Sed cursus cursus velit. Sed a massa. Duis dignissim euismod quam. Nullam euismod metus ut orci. Vestibulum erat libero, scelerisque et, porttitor et, varius a, leo.</p>  
         </section>
         
-        <section id="promotional">
+        <section id="promotional" class="col-2 first">
             <figure>
                 <video controls>
                     <source src="videos/real-estate.mp4" type="video/mp4">
@@ -51,38 +59,46 @@
             </figure>
         </section>
         
+        <section id="news" class="col-1">
+            <h3>Company News</h3>
+            <p>Nulla dui purus, eleifend vel, consequat non, dictum porta, nulla. Duis ante mi, laoreet ut, commodo eleifend, cursus nec, lorem. Aenean eu est. Etiam imperdiet turpis. Praesent nec augue. Curabitur ligula quam, rutrum id, tempor sed, consequat ac, dui. Vestibulum accumsan eros nec magna. Vestibulum vitae dui. Vestibulum nec ligula et lorem consequat ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Phasellus eget nisl ut elit porta ullamcorper.</p>
+        </section>
+    </div><!-- .wrapper -->
+        
         <section id="details">
-            <div>
-                <h3>Contact</h3>
-                <p>
-                    email: <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
-                    phone: +1 710 555 1234
-                </p>
-                <h3>Correspondence</h3>
-                <address>
-                    Exceptional Realty<br>
-                    P.O. Box 5555<br>
-                    Brooklyn, NY 11201
-                </address>
-            </div>
-            
-            <div>
-                <h3>Links</h3>
-                <p>
-                    <a href="#" target="_blank">Home Restoration</a><br>
-                    <a href="#" target="_blank">Affordable Mortages</a><br>
-                    <a href="#" target="_blank">Professional Moving Crew</a>
-                </p>
-            </div>
-            
-            <div>
-                <h3>Follow</h3>
-                <p>
-                    <a href="#" target="_blank">YouTube</a><br>
-                    <a href="#" target="_blank">Facebook</a><br>
-                    <a href="#" target="_blank">Twitter</a>
-                </p>
-            </div>
+            <div class="wrapper clearfix">
+                <div class="col-1 first">
+                    <h3>Contact</h3>
+                    <p>
+                        email: <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
+                        phone: +1 710 555 1234
+                    </p>
+                    <h3>Correspondence</h3>
+                    <address>
+                        Exceptional Realty<br>
+                        P.O. Box 5555<br>
+                        Brooklyn, NY 11201
+                    </address>
+                </div>
+
+                <div class="col-1">
+                    <h3>Links</h3>
+                    <p>
+                        <a href="#" target="_blank">Home Restoration</a><br>
+                        <a href="#" target="_blank">Affordable Mortages</a><br>
+                        <a href="#" target="_blank">Professional Moving Crew</a>
+                    </p>
+                </div>
+
+                <div class="col-1">
+                    <h3>Follow</h3>
+                    <p>
+                        <a href="#" target="_blank">YouTube</a><br>
+                        <a href="#" target="_blank">Facebook</a><br>
+                        <a href="#" target="_blank">Twitter</a>
+                    </p>
+                </div>
+            </div><!-- .wrapper -->
         </section>
         
         <footer>
